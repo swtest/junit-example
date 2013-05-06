@@ -51,6 +51,7 @@ public class Calculator {
      * @param numerator 분자
      * @param denominator 분모
      * @return 분자에서 분모로 나눈 값.
+     * @exception ArithmeticException 분모가 0일 경우 발생함.
      */
     public static int divide(int numerator, int denominator) {
         return numerator / denominator;
